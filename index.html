@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>BANDS!</title>
 </head>
+
 <body>
     <script type="text/javascript">
-        
-        var bands = ["Led Zeppelin", "Black Sabbath", "Arctic Monkeys", "The gitr Beatles", "Interpol"]
 
-        console.log(bands[1])
+        var bands = ["Led Zeppelin", "Black Sabbath", "Arctic Monkeys", "The Beatles", "Interpol"];
+
+        var fav = prompt("What is your favorite band?");
+        if (bands.indexOf(fav)!=-1) {
+            alert("Yeah! I love them!")
+        } else {
+            alert("Nah, they're LAME!")
+        }
 
     </script>
-    
+
 </body>
+
 </html>
